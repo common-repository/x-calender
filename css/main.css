@@ -1,0 +1,653 @@
+
+
+/*html .mceContentBody{
+	max-width:100% !important;
+}*/
+
+/* HOLY GRAIL */
+.colmask {
+   border-left: 1px solid #444444;
+    border-top: 1px solid #444444;
+    clear: both;
+    float: left;
+    margin-left: -22px;
+    margin-top: -12px;
+    overflow: hidden;
+    position: relative;
+    width: 102%;
+}
+.leftmenu {
+    background: #333;
+}
+
+.leftmenu .colright {
+    background: none repeat scroll 0 0 #fff;
+    float: left;
+    left: 215px;
+    position: relative;
+    width: 205%;
+}
+.leftmenu .col1wrap {
+     float: right;
+    padding-bottom: 1em;
+    position: relative;
+    right: 215px;
+    width: 50%;
+}
+.leftmenu .col1 {
+   margin: 0 15px 0 215px;
+    overflow: hidden;
+    position: relative;
+    right: 100%;
+}
+.leftmenu .col2 {
+    float: left;
+    position: relative;
+    right: 203px;
+    width: 204px;
+	padding-top:10px;
+}
+
+
+.leftmenu .col2 select, .leftmenu .col2 input[type="text"] {
+    background: none repeat scroll 0 0 #666666;
+    border: 1px solid #555555;
+    color: #E7E7E7;
+    font-size: 12px;
+    height: 27px !important;
+    margin: 0 !important;
+    padding: 3px;
+    width: 93%;
+}
+.leftmenu .col2 .heading{
+	background: none repeat scroll 0 0 #444444;
+    clear: both;
+    color: #F5F5F5;
+    font-size: 14px;
+    margin-bottom: 10px;
+    margin-left: -12px;
+    padding: 12px;
+	margin-top: 22px;
+	width: 93%;
+}
+.leftmenu .col2 label {
+    color: #999999;
+    display: block;
+    margin-bottom: 3px;
+    margin-top: 5px;
+}
+.leftmenu .col2 li {
+	 color: #999999;
+}
+
+.promotional_settings {
+    margin-top: 22px;
+}
+
+div.col2 p.description {
+    padding-right: 5px;
+}
+/* * * * * * * * * * * * * * */
+
+
+div#calendar,div.day_view{
+	font-family:'open sans' !important;
+}
+div.ui-dialog {
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-top: medium none;
+    height: 85% !important;
+    width: 70% !important;
+}
+.ui-widget-content{
+	/*color:#333 !important;*/
+}
+div.ui-dialog div.ui-dialog-content{
+	height:inherit !important;
+	padding-bottom: 0;
+}
+div#calendar table {
+    border-radius: 2px;
+}
+div.tr.days_row {
+    height: 35px;
+}
+/*div.tr.days_row div{
+	width:14%;
+}*/
+div.tr.month_days div.ui-state-default{
+	background-repeat:repeat !important;
+}
+div.tr.month_days div.td {
+    min-height: 80px;
+}
+/*div.tr.month_days div {
+    text-align: left;
+    vertical-align: top;
+	/*color:#666;*/
+/*}*/
+
+div.today {
+  /*  background-repeat: repeat;*/
+}
+
+div.day_num {
+    padding: 5px;
+	cursor:pointer;
+}
+div.event_title {
+ cursor: pointer;
+    height: 23px;
+    line-height: 23px;
+    margin: 5px 4px 2px 30px;
+    overflow: hidden;
+    padding: 0 3px;
+    text-align: left;
+}
+div.event_holder{
+	height: 30px;
+    line-height: 19px;
+    overflow: hidden;
+    position: relative;
+}
+div.xcalendar_logo{
+	background: url("../images/logo_big.png") no-repeat scroll 0 0 transparent;
+    height: 52px;
+    margin-bottom: 20px;
+    width: 226px;
+	float:left;
+}
+div.out_of_scope{
+	background:url(../images/out_of_scope.png);
+}
+div.in_scope, div.hasevent, div.today{
+	/*background-color:#fff;*/
+}
+div.in_scope.over, div.hasevent.over, div.today.over{
+	opacity:1;
+}
+div.in_scope, div.hasevent, div.today{
+	opacity:0.95;
+}
+ span.ui-icon-closethick {
+    float: right;
+    width: 14px;
+}
+.ui-dialog-titlebar a.ui-state-hover {
+    border: none !important;
+}
+.ui-dialog .ui-widget-header{
+    padding: 10px ;
+}
+.ui-dialog.event_editor .ui-widget-content{
+	padding: 0px 10px;
+	border:none;
+	background: none repeat scroll 0 0 #FFFFFF !important;
+    height: 90% !important;
+    width: 98% !important;
+	color:#555;
+}
+
+div.td.ui-widget-overlay {
+   background-position: center top;
+    background-repeat: repeat;
+    position: inherit !important;
+    width: inherit;
+    z-index: 10;
+}
+.toplevel_page_WA-x_calendar_express-main .ui-widget-overlay{
+	z-index:11;
+}
+
+div.add_new_event {
+  	background: linear-gradient(to top, #ECECEC, #FFFFFF) repeat scroll 0 0 #CCCCCC;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    border-top: 1px solid #CCCCCC;
+    clear: both;
+    color: #777777;
+    cursor: pointer;
+    display: none;
+    font-size: 19px;
+    font-weight: bold;
+    padding: 3px 6px;
+    position: absolute;
+    left: 0;
+	bottom:0;
+    width: 12px;
+}
+div.add_new_event:hover{
+	background: linear-gradient(to top, #e7e7e7, #ECECEC) repeat scroll 0 0 #ccc;
+}
+
+.ui-dialog fieldset input,
+.ui-dialog fieldset textarea  {
+    width: 100%;
+    margin: 0;
+}
+.ui-dialog fieldset {
+    float: left;
+    margin: 10px;
+    padding: 7px;
+}
+.x-calendar-editor .input_holder{
+	clear:both;
+}
+.x-calendar-editor .inside label {
+    display: block;
+}
+.x-calendar-editor .inside input[type="text"] {
+	width:100%;
+}
+div.event_holder .db_actions{
+	background: linear-gradient(to top, #ECECEC, #FFFFFF) repeat scroll 0 0 #CCCCCC;
+    border: 1px solid #CCCCCC;
+    border-radius: 0 4px 4px 0;
+    display: none;
+    height: 17px;
+    padding: 3px;
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    width: 50px;
+    z-index: 100;
+}
+div.event_holder.over .db_actions{
+	display:block;
+}
+
+
+div.db_actions div {
+    float: left;
+	cursor:pointer;
+	margin-left: 7px;
+}
+
+div.db_actions div.edit {
+    background: url("../images/edit.png") no-repeat;
+    height: 16px;
+    width: 16px;
+}
+div.db_actions div.edit:hover{
+	background-position:-16px 0px;
+}
+
+div.db_actions div.delete {
+   background: url("../images/delete.png") no-repeat;
+    height: 16px;
+    width: 16px;
+}
+div.db_actions div.delete:hover{
+	background-position:-16px 0px;
+}
+
+
+div.ui-dialog.event_information .ui-widget-header {
+    border-radius: 0 0 0 0;
+    font-size: 20px;
+    margin-left: 0;
+    margin-top: 0;
+    padding: 17px;
+    text-shadow: 1px 1px 1px #333;
+    font-weight: normal;
+	
+}
+div.ui-dialog.event_information.ui-widget-content {
+    padding: 0;
+    border: none;
+}
+
+
+
+
+div.tr.days_row, div.tr.days_row div.td {
+    height: 35px;
+}
+div.table{
+	width:100%;
+	font-size:12px;
+}
+
+div.tr{
+	clear:both;
+}
+div.tr div.td {
+	border:none;
+    border-bottom: 1px solid #CCCCCC;
+    border-right: 1px solid #CCCCCC;
+    display: block;
+    float: left;
+    
+    position: relative;
+    width: 14% !important;
+}
+div.tr div.td:first-child {
+    border-left: 1px solid #ccc;
+}
+div.tr.head div.td.current_month {
+
+}
+
+div.tr.head div.td {
+    border: medium none;
+    height: 50px;
+    line-height: 50px;
+   /* padding-left: 1px;*/
+	border-top:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	background-position:right -74px;
+}
+
+div.tr.head div.td.left_arrow{
+	
+}
+div.tr.head div.td.right_arrow{
+	
+}
+
+div.tr.head {
+height: 30px;
+}
+div.tr.head div.td.current_month {
+    text-align: center;
+	padding:0;
+}
+
+div.left_arrow span,
+div.right_arrow span{
+    margin: 16px;
+}
+div.right_arrow span {
+    float: right;
+}
+
+div.tr.day_headings{
+}
+div.tr.day_headings div.td{
+	text-align:center;
+	height:30px;
+	line-height:30px;
+}
+
+
+
+div.event_time_line {
+    clear: both;
+    margin: 1px auto;
+    opacity: 0.9;
+    text-align: left;
+    width: 100%;
+	overflow: hidden;
+	cursor:pointer;
+}
+div.event_time_line div.after {
+    float: right;
+    border-top: 1px solid #999;
+    width: 40%;
+}
+div.event_time_line div.before {
+    float: left;
+    border-top: 1px solid #999;
+    width: 40%;
+}
+
+.event_inside{
+	background: url("../images/ui-icons/date_small.png") no-repeat scroll 6px center rgba(0, 0, 0, 0);
+    padding: 10px 7px 10px 22px;
+	white-space: nowrap;
+}
+
+.repeat_event .event_inside {
+    padding: 10px 0 10px 0px !important;
+	white-space: nowrap;
+	background:none !important;
+}
+
+div.event_time_line div.popup {
+    display: block;
+    font-size: 10px;
+    font-weight: normal;
+    text-align: left;
+    width: 100%;
+    float: left;
+}
+div.event_time_line span{
+	float:left;
+}
+
+div.event_time_line div.target {
+border-radius: 20px 20px 20px 20px;
+    float: left;
+    height: 10px;
+    left: 12%;
+    margin: 0 auto;
+    position: relative;
+    top: -6px;
+    width: 10px;
+}
+div.event_time_line.repeat_event{
+	opacity:0.5;
+}
+
+
+div.event_details div.start_time {
+     background: url("../images/ui-icons/time.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+}
+
+div.event_details div.start_date {
+   background: url("../images/ui-icons/date.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: left;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+    margin-left: -3px;
+    margin-right: 10px;
+    padding-left: 50px;
+}
+div.event_details div.venue_name {
+   background: url("../images/ui-icons/location.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+    clear: both;
+    font-size: 24px;
+    height: 53px;
+    line-height: 53px;
+    margin-left: 15px;
+    padding-left: 40px;
+}
+
+div.event_details{
+	
+}
+
+
+div.venue_name {
+   background: url("../images/ui-icons/location.png") no-repeat scroll 0 3px rgba(0, 0, 0, 0);
+    border-top: 1px dotted #CCCCCC;
+    clear: both;
+    font-size: 24px;
+    height: 53px;
+    line-height: 53px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-top: 10px;
+    padding-left: 38px;
+}
+div.event_description{
+	clear:both;
+	border-top:1px dotted #ccc;
+	margin-bottom:10px;
+	padding-right:15px;
+}
+.ui-dialog .ui-dialog-title{
+	height:32px !important;
+}
+.ui-dialog #event-info{
+	color:#444;
+}
+.wrap .ui-dialog .ui-dialog-title{
+	height:22px !important;
+}
+
+ #venue_map {
+        height: 350px !important;
+		width: 100% !important;
+        margin: 0px;
+        padding: 0px;
+      }
+.top-strip {
+    background: none repeat scroll 0 0 #333333;
+    border-left: 1px solid #555555;
+    border-top: 1px solid #555555;
+    float: left;
+    height: 100%;
+    margin-left: -22px;
+    margin-top: -12px;
+    padding: 10px;
+    width: 200px;
+}
+}
+.color_scheme {
+    float: left;
+	margin-right:10px;
+}
+.color_scheme p.description{
+	color:#FFD90D;
+}
+.color_scheme select{
+	font-weight:normal !important;
+}
+
+
+.wrap div#calendar, .wrap div.day_view {
+    min-height: 200px;
+    width: 100%;
+}
+
+.recurring_settings,
+.weekly_settings,
+.monthly_settings{
+	display:none;
+}
+
+.recurring_settings {
+    border: 1px solid #e7e7e7;
+    padding: 5px;
+    border-radius: 5px;
+	
+}
+div.table {
+    position: relative;
+    z-index: 1;
+}
+
+.loading {
+    background: none repeat scroll 0 0 #FFFFFF;
+    display: none;
+    height: 100%;
+    margin: 0 auto;
+    opacity: 0.7;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    z-index: 1000;
+}
+.load_spinner{
+	background:url(../images/482.gif) no-repeat center center transparent !important;
+	width:50px;
+	height:50px;
+}
+
+
+.update div:hover {
+    background: #f2f2f2;
+}
+.update div {
+    padding: 10px 30px;
+    border: 1px solid #ccc;
+    float: left;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+div.update {
+    height: 50px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+}
+a.xforms_logo {
+    background: url("../images/xforms_logo.png") no-repeat scroll center center #000;
+    height: 53px;
+    width: 100%;
+    padding: 10px 0px;
+	display:block;
+}
+
+div.event_content {
+    float: left;
+    border-right: 1px solid #ccc;
+    width: 67%;
+    min-width: 300px;
+}
+div.booking_form {
+    float: left;
+    width: 30%;
+    padding-left: 2%;
+}
+div.time_holder.ui-state-default{
+	border:none;
+}
+div.time_holder {
+    border-right: 1px solid #ccc !important;
+    border-left: 1px solid #ccc  !important;
+    border-bottom: 1px solid #ccc  !important;
+}
+div.day_view_header {
+    height: 50px;
+    line-height: 50px;
+}
+div.day_view_header span.ui-icon-circle-triangle-w {
+    float: left;
+    margin-left: 17px;
+    margin-right: 13px;
+    margin-top: 18px;
+}
+
+div.event_info_holder {
+    border-left: 1px solid #ccc;
+	font-weight:normal;
+	cursor:pointer;
+}
+div.time_holder div.time, div.time_holder div.event_info_holder {
+    float: left;
+    padding: 5px;
+	font-weight:normal;
+}
+div.day_view_header span.ui-icon{
+	cursor:pointer;
+}
+div.save_settings {
+    padding-top: 27px;
+}
+
+div.promote {
+    float: right;
+    font-size: 12px;
+}
+
+
+p.upgrade_to_pro a {
+    color: #EFA83D;
+    font-weight: bold;
+}
+p.upgrade_to_pro {
+    padding-top: 0;
+    margin-top: 0;
+    color: #ff0000;
+}

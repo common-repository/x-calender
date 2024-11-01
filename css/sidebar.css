@@ -1,0 +1,18 @@
+/* CSS Document */
+div.tr div.td{
+	width:12% !important;
+}
+div.tr.head div.td{
+	line-height:normal !important;
+}
+div.day_num{
+	padding:2px;
+}
+span.total_events {
+    padding: 1px 14px !important;
+    border-radius: 4px;
+	cursor:pointer !important;
+}
+div.tr.month_days div.td{
+	min-height:50px !important;
+}

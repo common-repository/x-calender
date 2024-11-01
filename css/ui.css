@@ -1,0 +1,4 @@
+/* CSS Document */
+div.db_actions, div.add_new_event{
+	display:none !important;
+}
